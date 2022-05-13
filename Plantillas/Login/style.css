@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/*CONTAINER STYLES*/
+.container {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+}
+.card {
+  border-radius: 30px;
+}
+.log__container {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  background-color: darkblue;
+}
+.body__log {
+  width: 80%;
+  margin: auto;
+}
+/*FORM STYLESS*/
+.form__body {
+  display: flex;
+  flex-direction: column;
+}
+.form__field {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+/*IMPUT STYLES*/
+input {
+  border-style: none;
+  border-radius: 10px;
+}
+input::placeholder {
+  text-align: center;
+}
+input:focus {
+  outline: none;
+}
+
+/*BUTTON STYLES*/
+
+.form__btn{
+    margin: auto;
+    width: 80%;
+    border-radius: 25px;
+    border-style: none;
+    background-color: blueviolet;
+    color: aliceblue;
+}
